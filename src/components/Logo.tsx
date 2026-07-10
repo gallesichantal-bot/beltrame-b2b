@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export function AfvLogo({
-  className = 'h-14 w-auto',
+  className = 'w-48 h-auto',
   variant = 'light',
 }: {
   className?: string

@@ -91,7 +91,7 @@ function NavDropdown({ item }: { item: (typeof MAIN_NAV)[1] }) {
 
 /* ── Logo ─────────────────────────────────────────────────────────── */
 function BeltrameLogo() {
-  return <AfvLogo className="h-12 w-auto" variant="light" />
+  return <AfvLogo className="w-44 h-auto" variant="light" />
 }
 
 /* ── Main component ───────────────────────────────────────────────── */
@@ -156,7 +156,7 @@ export default function Header({ userName, company }: { userName: string; compan
 
       {/* ── 2. Main header — white with bottom border ──────────── */}
       <div className="bg-white" style={{ borderBottom: '1px solid #eceef0' }}>
-        <div className="max-w-screen-xl mx-auto px-6 flex items-stretch h-[72px] gap-10">
+        <div className="max-w-screen-xl mx-auto px-6 flex items-stretch h-[88px] gap-10">
 
           {/* Logo */}
           <Link href="/dashboard" className="flex items-center shrink-0 py-3">
