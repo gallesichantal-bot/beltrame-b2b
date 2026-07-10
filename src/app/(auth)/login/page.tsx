@@ -35,8 +35,8 @@ export default function LoginPage() {
           <div className="hidden lg:flex lg:w-[55%] flex-col justify-between px-16 xl:px-24 py-14">
 
             {/* Logo */}
-            <div>
-              <AfvLogo className="h-11 w-auto" variant="dark" />
+            <div className="inline-block px-5 py-3 bg-white">
+              <AfvLogo className="h-14 w-auto" variant="light" />
             </div>
 
             {/* Headline centrale */}
@@ -88,8 +88,8 @@ export default function LoginPage() {
             <div className="w-full max-w-[380px]">
 
               {/* Mobile logo */}
-              <div className="lg:hidden mb-10">
-                <AfvLogo className="h-9 w-auto" variant="dark" />
+              <div className="lg:hidden mb-10 inline-block px-4 py-2 bg-white">
+                <AfvLogo className="h-11 w-auto" variant="light" />
               </div>
 
               {/* Card */}

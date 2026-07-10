@@ -91,7 +91,7 @@ function NavDropdown({ item }: { item: (typeof MAIN_NAV)[1] }) {
 
 /* ── Logo ─────────────────────────────────────────────────────────── */
 function BeltrameLogo() {
-  return <AfvLogo className="h-9 w-auto" variant="light" />
+  return <AfvLogo className="h-12 w-auto" variant="light" />
 }
 
 /* ── Main component ───────────────────────────────────────────────── */
