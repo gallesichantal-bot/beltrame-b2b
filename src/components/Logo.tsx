@@ -16,7 +16,7 @@ export function AfvLogo({
       className={className}
       style={{
         objectFit: 'contain',
-        ...(variant === 'dark' ? { filter: 'brightness(0) invert(1)' } : {}),
+        ...(variant === 'dark' ? { mixBlendMode: 'screen' as const } : {}),
       }}
       priority
     />
