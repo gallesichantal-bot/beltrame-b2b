@@ -70,7 +70,7 @@ function NavDropdown({ item }: { item: (typeof MAIN_NAV)[1] }) {
       {open && (
         <div
           className="absolute top-full left-0 w-56 bg-white shadow-lg z-50"
-          style={{ borderTop: '3px solid #de473c', border: '1px solid #eceef0', borderTop: '3px solid #de473c' }}
+          style={{ border: '1px solid #eceef0', borderTop: '3px solid #de473c' }}
         >
           {item.children!.map(child => (
             <Link
@@ -250,7 +250,7 @@ export default function Header({ userName, company }: { userName: string; compan
               {accountOpen && (
                 <div
                   className="absolute top-full right-0 w-56 bg-white shadow-xl z-50"
-                  style={{ borderTop: '3px solid #de473c', border: '1px solid #eceef0', borderTop: '3px solid #de473c' }}
+                  style={{ border: '1px solid #eceef0', borderTop: '3px solid #de473c' }}
                 >
                   {/* User info row */}
                   <div className="px-4 py-3" style={{ borderBottom: '1px solid #f0f0f0', background: '#f9f9f9' }}>
